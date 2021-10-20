@@ -1,0 +1,25 @@
+body {
+  background-color: grey;
+  color: blue;
+}
+
+.title {
+  text-align: center;
+  font-size: xx-large;
+}
+
+.links {
+  font-size: larger;
+  margin: 60px;
+  color: chartreuse;
+}
+
+.firstParagraph {
+  text-align: center;
+  font-size: large;
+  width: 500px;
+  border: 10px solid black;
+  padding: 40px;
+  margin: 50px;
+}
+
