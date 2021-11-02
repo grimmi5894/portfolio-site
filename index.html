@@ -1,0 +1,33 @@
+<html>
+  <head>
+    <title>Tricia Brooker: Portfolio Site</title>
+    <link rel="stylesheet" href="./main.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div class="title"><h1>Tricia Brooker: Portfolio Site</h1></div>
+    <div class="firstParagraph"><h2>I am currently a student with Stack Education in the Web Development Bootcamp. I am formerly a NYS certified EMT, and more recently, a former store manager in the convenience store industry. Now I am looking forward to this new path, wherever it may lead.</h2></div>
+    <div class="links"><h2>Links</h2>
+      <ul>
+        <li><a href="https://github.com/grimmi5894/">My GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/tricia-brooker-96381a121/">My LinkedIn</a></li>
+      </ul>
+    </div>
+    <div class="webCalculator">
+      <h1>Web Calculator</h1>
+      <h3>Enter 2 Numbers To Add, Subtract, Multiply or Divide Together</h3>
+      <form>
+        <input type="text" name="number1" id="number1" value=""/>
+        <select id="operator">
+          <option value="add">+</option>
+          <option value="subtract">-</option>
+          <option value="multiply">*</option>
+          <option value="divide">/</option>
+        </select>
+        <input type="text" name="number2" id="number2" value=""/>
+        <input type="button" value="=" onclick="calculate()" />
+      </form>
+      <span id="result"></span>
+    </div>
+  </body>
+</html>
